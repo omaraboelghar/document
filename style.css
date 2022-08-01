@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(blue_bg.png);
+    background-size: cover;
+    height: 600px;
+    margin: 0;
+}
+.nav-lt{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-left: 20px;
+
+}
+.nav-a>a {
+    text-decoration: none;
+    padding: 20px;
+    color: darkgray;
+    font-weight: 200;
+    transition: 0.5s;
+    
+}
+.nav-a>a:hover{
+    color: rgb(63, 63, 114);
+    size-adjust: 20px;
+    font-size: 22px;
+}
+.nav-rt .login{
+    position: absolute;
+    right:30px;
+    top: 25px;
+    font-size: 15px;
+    color: darkgrey;
+    text-decoration: none;
+    background-color: rgba(78, 88, 88, 0.226);
+    padding: 8px 20px;
+    border-radius: 10px;
+    transition: 0.5s ;
+}
+.login:hover{
+    margin: 5px;
+   background-color: rgba(0, 0, 0, 0.432);
+   color:rgb(206, 206, 206)
+    
+    
+}
+.nav-logo{
+    position:relative;
+    bottom: 15px;
+}
+.section1{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+.img2{
+    position: relative;
+    bottom: 110px;
+    z-index: 1;
+    left:300px
+
+}
+.img1{
+    position:relative;
+    left:610px;
+    bottom: 250px;
+    z-index: 2;
+
+    
+}
+.img3{
+    position:absolute;
+    left: 550px;
+    bottom: 210px;
+    z-index: 3;
+}
+.sec1{
+    position: absolute;
+    top:70px;
+    left:80px;
+    font-size: 30px;
+}
+.deliver{
+    color: rgb(80, 11, 145);
+}
+.sec1>p{
+    font-size: 20px;
+}
+.wav{
+    position: absolute;
+    top:400px;
+}
+.wav-2{
+    position: absolute;
+    left:200px
+}
+.section-tow{
+    display: flex;
+
+}
+.div-time{
+    position: absolute;
+    left: 90px;
+    top:660px;
+    width:200px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+}
+.div-time2{
+    position: absolute;
+    left: 380px;
+    top:800px;
+    width:230px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+
+
+}
+.section-three{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.div-discount-3{
+    position: absolute;
+    top:990px;
+    left: 540px;
+    width: 30%;
+    text-align: center;
+    color: rgb(119, 114, 114);
+
+}
+
+.div-why{
+    position: relative;
+    left:60px;
+    top:310px ;
+}
+.div-h{
+    position: absolute;
+    top: 100px;
+    left:90px;
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+
+}
+.section-four{
+    display: flex;
+   justify-content: space-around;
+   
+
+}
+.div-06{
+position: absolute;
+bottom:-890px;
+left: 180px;
+}
+.div-07{
+   position: absolute;
+   bottom:-990px;
+   left: 380px;
+   width: 30%;
+   text-align: center;
+   font-size: 15px;
+   color: rgb(119, 114, 114);
+   
+
+}
+.div-08{
+   position: absolute;
+   bottom:-890px;
+   left: 800px;
+}
+.section-class{
+    background-image: url(Group\ 1131.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 900px; 
+    display: flex;
+    justify-content:space-between;
+
+}
+.box{
+    position:relative;
+    left: -100px;
+    display: flex;
+    margin-bottom:10;
+    size: 100px;
+}
+.appel{
+    display: flex;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 45px;
+    left:50px;
+    justify-content: space-around;
+    margin: 50px 50px;
+}
+.img-appel-store{
+    display: flex;
+    background-color: rgb(241, 234, 234);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 8px;
+    color: darkgray;
+    font-size: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+    
+}
+.img-appel-store>h4{
+    margin-left: 5px;
+    text-align: center;
+}
+.img-play-store{
+    display: flex;
+    background-color: rgb(241, 234, 234);
+    padding: 10px;
+    border-radius: 8px;
+    color: darkgray;
+    font-size: 10px;
+
+}
+.img-play-store>h4{
+    margin-left: 5px;
+    text-align: center;
+
+}
+.fac{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 55px;
+    left:100px;
+}
+.fac>img{
+    margin: 5px;
+}
+.home{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+.home>a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: solid;
+    color: aliceblue;
+}
